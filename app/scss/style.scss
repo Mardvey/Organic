@@ -19,6 +19,7 @@
       justify-content: center;
     }
     &-text{
+      text-align: center;
       margin-top: 11px;
       color: $text;
       font-size: 48px;
@@ -27,14 +28,14 @@
   }
   &__title{
     max-width: 1005px;
-    height: 168px;
+    min-height: 168px;
     margin: 0 auto;
     background-color: rgba(74, 67, 57, 0.8);
     border-radius: 15px;
     width: 100%;
     margin-top: 198px;
     &-text{
-      padding-top: 49px;
+      padding: 49px 50px;
       color: #fff;
       font-size: 60px;
       @include f400;

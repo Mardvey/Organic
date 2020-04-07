@@ -1,3 +1,32 @@
-// @media(max-width: 1900px){
-
-// }
+@media(max-width: 800px){
+  .header__title-text {
+    font-size: 40px;
+  }
+  .header__btn {
+    margin-top: 190px;
+    font-size: 40px;
+  }
+}
+@media(max-width: 500px){
+  .header__inner{
+    min-height: 1050px;
+  }
+  .header__title{
+    margin-top: 119px;
+    &-text{
+    padding: 35px 20px;
+    }
+  }
+  .header__btn {
+    margin-top: 150px;
+  }
+  .header__info {
+    font-size: 24px;
+  }
+}
+@media(max-width: 370px){
+   .header__title{
+     margin-top: 72px;
+   }
+}
+    
