@@ -1,14 +1,14 @@
-// $text: #546e7a;
+$text: #4a4339;
 // $red: #e74c3c;
-// @mixin f300 {
-//    font-family: 'Roboto', sans-serif;
-//    font-weight: 300;
-// }
-// @mixin f500 {
-//    font-family: 'Roboto', sans-serif;
-//    font-weight: 500;
-// }
-// @mixin f700 {
-//    font-family: 'Roboto', sans-serif;
-//    font-weight: 700;
-// }
+@mixin f300 {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight: 300;
+}
+@mixin f400 {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight: 400;
+}
+@mixin f600 {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight: 600;
+}
