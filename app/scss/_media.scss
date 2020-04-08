@@ -1,3 +1,15 @@
+@media(max-width: 1100px){
+  .info__items{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .info__item{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
+}
 @media(max-width: 800px){
   .header__title-text {
     font-size: 40px;
@@ -5,6 +17,20 @@
   .header__btn {
     margin-top: 190px;
     font-size: 40px;
+  }
+}
+@media(max-width: 600px){
+  .info{
+    padding-bottom: 60px;
+    &__item{
+      width: 100%;
+      &-numbers{
+        max-width: none;
+      }
+    }
+  }
+  .info__title-text {
+    font-size: 38px;
   }
 }
 @media(max-width: 500px){
@@ -27,6 +53,15 @@
 @media(max-width: 370px){
    .header__title{
      margin-top: 72px;
+   }
+   .info__title {
+     margin-bottom: 45px;
+     &-text{
+      font-size: 30px;
+     }
+   }
+   .info{
+     padding-bottom: 30px;
    }
 }
     
