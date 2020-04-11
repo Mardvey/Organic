@@ -141,24 +141,14 @@
     position: relative;
     }
     &-title{
-      position: absolute;
-      left: 0;
-      top: 175px;
       max-width: 1019px;
-      min-height: 168px;
-      background-color: rgba(74, 67, 57, 0.8);
-      border-radius: 15px;
       width: 100%;
-      padding-left: 40px;
+      min-height: 168px;
       &--text{
-        padding: 19px 10px 10px;
-        color: #fff;
-        font-size: 60px;
         @include f400;
-        text-align: left;
+        font-size: 60px;
         span{
-          display: block;
-          width: 100%;
+
         }
       }
     }
@@ -201,6 +191,65 @@
 }
 
 // end section quarter
+// start section home
+.home, .yard{
+  min-height: 1676px;
+  padding-bottom: 50px;
+  background-color: $bg;
+  &__inner{
+    min-height: 1001px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &__wrapper{
+    position: relative;
+  }
+  &__text{
+    color: $text;
+    font-size: 48px;
+    @include f300;
+    text-align: center;
+    margin-top: 88px;
+    p{
+      margin-top: 50px;
+      min-height: 180px;
+      max-width: 1130px;
+      line-height: auto;
+    }
+  }
+  &__title{
+    max-width: 1019px;
+    width: 100%;
+    min-height: 168px;
+    &-text{
+      font-size: 60px;
+      @include f400;
+    }
+  }
+}
+.title{
+  position: absolute;
+  left: 0;
+  top: 175px;
+  background-color: rgba(74, 67, 57, 0.8);
+  border-radius: 15px;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  &-text{
+    padding: 10px;
+    color: #fff;
+    
+    text-align: left;
+  }
+}
+
+.yard__title{
+  max-width: 585px;
+  width: 100%;
+}
+// end section home
 
 @import 'media';
 

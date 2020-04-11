@@ -40,6 +40,13 @@
   }
 }
 @media(max-width: 800px){
+  .home__text{
+    font-size: 40px;
+  }
+  .home__title-text,
+  .yard__title-text{
+    font-size: 50px;
+  }
   .header__title-text {
     font-size: 50px;
   }
@@ -58,6 +65,9 @@
   }
 }
 @media(max-width: 600px){
+  .yard__title-text {
+    font-size: 50px;
+  }
   .info{
     padding-bottom: 60px;
     &__item{
@@ -81,6 +91,13 @@
   .quarter{
     padding-bottom: 50px;
   }
+  .home__title-text {
+    font-size: 40px;
+  }
+  .home__text,
+  .yard__text {
+    font-size: 36px;
+  }
 }
 @media(max-width: 500px){
   .header__inner{
@@ -103,6 +120,13 @@
     span{
       font-size: 40px;
     }
+  }
+  .home__text,
+  .yard__text {
+    font-size: 32px;
+  }
+  .yard__title-text {
+    font-size: 44px;
   }
 }
 @media(max-width: 370px){
