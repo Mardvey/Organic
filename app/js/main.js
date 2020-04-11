@@ -10,3 +10,19 @@ $('.count').each(function () {
     });
 })
 
+
+$('.comfort__slider').slick({
+    // infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    centerMode: true,
+    focusOnSelect: true,
+    centerPadding: '0px',
+    arrows: false,
+});
+
+
+$(".comfort__slider .comfort__item").click(function () {
+    $(".comfort__slider .comfort__item").removeClass("active");
+    $(this).toggleClass("active");
+})
