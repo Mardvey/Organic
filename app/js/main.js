@@ -9,10 +9,7 @@ $('.count').each(function () {
         }
     });
 })
-
-
 $('.comfort__slider').slick({
-    // infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     centerMode: true,
@@ -20,9 +17,22 @@ $('.comfort__slider').slick({
     centerPadding: '0px',
     arrows: false,
 });
-
-
 $(".comfort__slider .comfort__item").click(function () {
     $(".comfort__slider .comfort__item").removeClass("active");
     $(this).toggleClass("active");
 })
+$('.comfort__slider-two').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    centerMode: true,
+    focusOnSelect: true,
+    centerPadding: '0px',
+    arrows: false,
+});
+$(".comfort__slider-two .comfort__item-two").click(function () {
+    $(".comfort__slider-two .comfort__item-two").removeClass("active");
+    $(this).toggleClass("active");
+})
+
+
+
